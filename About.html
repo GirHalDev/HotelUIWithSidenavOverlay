@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie-edge"/>
+    <meta name="Description" content="Welcome to the most 
+          extraordinary hotel in Boston Massachusetts"/>
+    <meta name="keywords" content=" hotel, boston hotel, new england hotel"/>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="CSS/mobile.css">
+    <title>Hotel BT | About</title>
+</head>
+<body>
+
+    <header>
+         <!-- hidden on screen greater than 768px and overlay -->
+         <div id="open" onclick="openNav()">&#9776;
+            <h1 id="logotop"><a href="index.html">HBT</a></h1>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+            <h1 class="logo"><a href="index.html">HBT</a></h1>
+            <a  href="Index.html">Home</a>
+            <a class="current" href="About.html">About</a>  
+            <a href="Contact.html">Contact</a>   
+        </div>
+    </header>
+
+    <section id="about-info" class="bk-light py-3">
+        <div class="container">
+            <div class="info-left">
+                <h1 class="l-leading"><span class="text-primary">About</span> Hotel BT</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Omnis aspernatur illum eius, possimus reprehenderit, maiores 
+                    excepturi non sint nesciunt ab commodi cum 
+                    fugiat saepe voluptatibus libero vitae veritatis officiis vel.
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque nemo veniam 
+                    quidem dolorem dicta ipsam aliquid, voluptatibus omnis placeat 
+                    qui!
+                </p>
+            </div>
+            <div class="info-right">
+                <img src="./Img/photo-2.jpg" alt="Hotel">
+            </div>
+        </div>
+    </section>
+    <div class="clr"></div>
+    <section id="testimonials" class="py-3">
+        <div class="container">
+            <h2 class="l-heading">What Our Guests Say</h2>
+            <div class="testimonial bk-primary">
+                <img src="./Img/person-1.jpg" alt="Samantha">
+                <p>Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Tempore, ullam.
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Nam, numquam? Lorem ipsum dolor 
+                    sit amet consectetur adipisicing elit. Dolores, 
+                    sint ipsum voluptatum 
+                    repellendus quos ut adipisci aperiam aliquam fugit fugiat.
+                </p> 
+            </div>
+            <div class="testimonial bk-primary">
+                <img src="./Img/person-2.jpg" alt="Jen">
+                <p>Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Tempore, ullam.
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Nam, numquam? Lorem ipsum dolor sit, 
+                    amet consectetur adipisicing elit. Consequuntur 
+                    modi nobis ea sint pariatur quo eos distinctio omnis, est ad.
+                </p> 
+            </div>
+            
+        </div>
+    </section>
+
+    <div class="clr"></div>
+    <footer id="main-footer"> 
+        <p>Hotel BT &copy; 2020, All Rights Reserved</p>
+    </footer>
+
+    <!-- Only applied for screen max-width = 768px -->
+    <script src="Script/mobile.js"></script>
+</body>
+</html>

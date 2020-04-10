@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#logotop {
+    text-align: center; 
+    font-size: 1.3em;
+}
+
+#open h1 a {
+    color: white;
+}
+
+#open {
+    display: block;
+    font-size: 30px;
+    cursor: pointer; 
+    color: #fff;  
+    background-color: #111;
+}
+
+
+.sidenav .logo {
+    /* float: none;
+    text-align: center; */
+    display:none;
+}
+
+.sidenav {
+    height: 100%;
+    /* streched 250px using script */
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    transition: 0.3s;
+    display: block;
+    float: none;
+    margin-top: 20px;
+}
+
+.sidenav a:hover {
+    color: #f7c08a;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 36px;
+    margin-left: 50px;
+    margin-top: 5px;
+    visibility: visible;
+    
+}
+
+/* Showcase */
+.btn {
+    margin-bottom: 5px;
+}
+#showcase .showcase-content {
+    padding-top: 20px;
+}
+
+#showcase .showcase-content h1 {
+    font-size:40px;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.4em;
+}
+
+/* Home Info */
+#home-info {
+    height:400px;
+}
+
+#home-info .info-img {
+    display: none;
+}
+
+#home-info .info-content {
+    float:none;
+    width:100%;
+}
+
+/* Boxes */
+.box {
+    float: none;
+    width: 100%;
+}
+
+/* About Info */
+#about-info .info-right,
+#about-info .info-left {
+    float: none;
+    width: 100%;
+} 
+
+#about-info .info-right {
+    margin-top: 30px;
+}
+
+.l-leading {
+    text-align: center;
+
+}
